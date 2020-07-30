@@ -4,7 +4,7 @@ def badge_maker (arr)
   counter = 0
   arr.each do |name|
     while counter < arr.length-1
-      puts "Hello, my name is #{name[counter]}"
+      puts "Hello, my name is #{arr[counter]}"
       counter += 1
     end
   end
